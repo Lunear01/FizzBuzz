@@ -33,10 +33,10 @@ class FizzBuzz {
 //            }
 
         // While loop implementation
-        extracted();
+        doFizzBuzz();
     }
 
-    private static void extracted() {
+    public static void doFizzBuzz() {
         int i = 1;
 
         while (i < 100) {
