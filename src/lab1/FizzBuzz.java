@@ -33,34 +33,35 @@ class FizzBuzz {
 //            }
 
         // While loop implementation
-        doFizzBuzz();
+        extracted();
     }
 
-    private static void doFizzBuzz() {
+    private static void extracted() {
         int i = 1;
 
         while (i < 100) {
             boolean divisibleBy3 = i % 3 == 0;
             boolean divisibleBy5 = i % 5 == 0;
 
-        if (divisibleBy3 && divisibleBy5) {
+            if (divisibleBy3 && divisibleBy5) {
 
-            System.out.println("Fizz Buzz");
+                System.out.println("Fizz Buzz");
 
-        } else if (divisibleBy3) {
+            } else if (divisibleBy3) {
 
-            System.out.println("Fizz");
+                System.out.println("Fizz");
 
-        } else if (divisibleBy5) {
+            } else if (divisibleBy5) {
 
-            System.out.println("Buzz");
+                System.out.println("Buzz");
 
-        } else {
+            } else {
 
-            System.out.println(i);
+                System.out.println(i);
 
             }
             i++;
         }
     }
+
 }
