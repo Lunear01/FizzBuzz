@@ -10,6 +10,7 @@ public class MultiplesTest {
     // TODO: When you are ready to test task X,
     //  copy this file into the test folder.
 
+    @org.junit.Test
     @Test
     public void testFifteen() {
         assertEquals(7,
@@ -18,6 +19,7 @@ public class MultiplesTest {
                         " it should be counting are: 3, 5, 6, 9, 10, 12, 15");
     }
 
+    @org.junit.Test
     @Test
     public void testTen() {
         assertEquals(4,
@@ -25,7 +27,7 @@ public class MultiplesTest {
                 "Multiples.multiples(10, 3, 5) is incorrect, the values" +
                         " it should be counting are: 3, 5, 6, 9");
     }
-
+    @org.junit.Test
     @Test
     public void testThousand() {
         assertEquals(466,
@@ -33,6 +35,7 @@ public class MultiplesTest {
                 "Multiples.multiples(1000, 3, 5) is incorrect.");
     }
 
+    @org.junit.Test
     @Test
     public void testEquals() {
         assertEquals(249,
